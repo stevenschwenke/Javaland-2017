@@ -59,3 +59,5 @@ TODO insert short description about what is going on here
 * Steven: Rabea said "definition of module = area without cyclic dependencies". Does that mean that there can be circular dependencies between modules? I don't understand that definition. Ask her.
 * Steven: Release of Java 9 should be around July. Is it possible that our customer can install Java 9 and run the application with it? Shouldn't be possible because of WebStarter. Or could it? ... 
 * to make this a complete Java 9 modularization chapter, add: unnamend modules, named modules (explicit, open, automatic module), module-info.java (versioning, "requires transitive", "exports package to module", opens package), jlink, jdeps
+
+- Steven organize migrating all knowledge from here to other places (workshops, articles, talks, ...). Goal is to delete this repository and all its contents.
