@@ -1,10 +1,10 @@
-#Software Architecture
+# Software Architecture
 This chapter could be branched into several smaller chapters. Let's see how our content works out and branch later.
  
-##Talks
+## Talks
 - "Vom Pair-Programming ...", Carola Lilienthal
  
-##content
+## Content
 - slide 10: backlog in a fixed-prize project. Already in the very first sprint unplanned changes! Agile very hard with fixed-prize projects.
 - Already in the first year one sprint only refactoring! Carola: "That's the way software development works!" Shows that  software architecture evolves and has to be cared for.
 - slide 24: That's the way it should be!
@@ -15,9 +15,9 @@ This chapter could be branched into several smaller chapters. Let's see how our 
 - patterns = one of three ways to create insight
 - slide 50 right picture: slicing via business logic. Also, Java 9 can help with this! 
  
-##TL;DR
+## TL;DR
  
-##Tasks
+## Tasks
 - Steven have a look at llsa.da, there should be films about software architecture
 - Steven take picture from slide 7 to software engineering course
 - Steven add to software engineering course: Velocity of a team and ways to messure it. What is a story point? Gummybears!

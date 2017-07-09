@@ -1,12 +1,12 @@
-#Modularization with Java 9
-##Talks
+# Modularization with Java 9
+## Talks
 * "Restrcturing your code base with Java 9", Rabea Gransberger, 1. talk Tuesday, [slides](https://speakerdeck.com/rgra/restrukturierung-der-code-basis-mit-java-9), [code](https://rgra.github.io)
 
-##TL;DR
+## TL;DR
 TODO insert short description about what is going on here
 * new important topic in Java 9: Modularization (of JDK, JRE and for your applications)
 
-##Advantages modules vs monolith
+## Advantages modules vs monolith
 * modules make architecture explicit
 * clear boundaries so that classes can be hidden (for real ;)
 * swap of modules
@@ -14,7 +14,7 @@ TODO insert short description about what is going on here
 * better tooling to find missing dependencies
 * small modules easier to deploy than large monoliths
 
-##Project Jigsaw
+## Project Jigsaw
 * JSE 376
 * until now: class not found on classpath, error at runtime
 * with Java 9: no classpath but module-path. Error when starting application
@@ -34,27 +34,27 @@ TODO insert short description about what is going on here
 * solution: Refactor application and extract business domain. Then, new business domain can use infrastructure of old application.
 * existing entites: Customer, Pet, Visit, Invoice. Goal: Pet => Car
 
-##Correct slicing in general
+## Correct slicing in general
 * slice application by business domain! Example: Customer, Pet, Visit, Invoice. 
 * Each slice has technical layers in it like Model, DB, UI
 * result: a lot of packages like customer.db, customer.model, customer.ui, invoice.db, invoice.model, ...
 * With Java 9, packages get more important because developer has to decide explicitly what to expose and what not. However: Create new class in exposed package will pollute the API with that class!
 
-##State of Java 9
+## State of Java 9
 * release date: 27.07.
 * Eclipse needs some work to run with Java 9, even when it runs it's "kind of a hack"
 * IntelliJ IDEA is cool with it
 * NetBeans too
 
-##Split-packages
+## Split-packages
 * "Split package" = packages with the same name but in different modules. This is not allowed in Java 9.
 
-##ServiceLoader
+## ServiceLoader
 * chart 36: Introduced class TabService can load new tabs from other modules.
 * ServiceLoader = "Get me all implementations of that service!" => possible to display tabs of the former vet domain AND the new automotive domain by picking the right service implementations from the list
 * ApplicationConfigurationProvider: sadly no time left to have a look at that
 
-##Tasks
+## Tasks
 * Have a look at Rabeas codebase and understand it. ;)
 * Steven: Rabea said "definition of module = area without cyclic dependencies". Does that mean that there can be circular dependencies between modules? I don't understand that definition. Ask her.
 * Steven: Release of Java 9 should be around July. Is it possible that our customer can install Java 9 and run the application with it? Shouldn't be possible because of WebStarter. Or could it? ... 

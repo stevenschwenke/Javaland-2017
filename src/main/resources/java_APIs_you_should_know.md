@@ -1,8 +1,8 @@
-#Java APIs you should know
-##Talks
+# Java APIs you should know
+## Talks
 - "Java APIs you should know", Hendrik Ebbers
 
-##Null in Java
+## Null in Java
 - NPE is "exception #1"
 - Hendrik: "Java has null for a reason": Combobox with selectedID. If nothing is selected in combobox, null is OK in this case.  
 - example: method with two Date as parameters and one line with access to both => if NPE is thrown, not sure if Date 1, Date 2 or both of them are null.
@@ -31,11 +31,11 @@
 - NPE often occurs when autoboxing: bean with int and Entity with Integer => if entity-Integer is null and entity is transformed to Bean, NPE! Solution: Optional.ofNullable with 0 and default-value
 - null should be handled early to have clean business logic
     
-##Annotations
+## Annotations
 - TODO have a look at the slides, meybe simething interesting is there
 
-##Plugins
+## Plugins
 - TODO have a look at the slides, meybe simething interesting is there
 
-##Tasks
+## Tasks
 - Steven organize migrating all knowledge from here to other places (workshops, articles, talks, ...). Goal is to delete this repository and all its contents.
