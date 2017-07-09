@@ -14,7 +14,7 @@ TODO insert short description about what is going on here
 * better tooling to find missing dependencies
 * small modules easier to deploy than large monoliths
 
-##Project Sigsaw
+##Project Jigsaw
 * JSE 376
 * until now: class not found on classpath, error at runtime
 * with Java 9: no classpath but module-path. Error when starting application

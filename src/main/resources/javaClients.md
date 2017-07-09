@@ -1,6 +1,6 @@
 # Was macht Java auf dem Client?
 ## Talks
-- Podiumsdiskusion "Was macht Java auf dem Client?", Anton Epple, Hendrik Ebbers
+- Podiumsdiskussion "Was macht Java auf dem Client?", Anton Epple, Hendrik Ebbers
 
 ## Content
 - no "talk" in classical sense, more a discussion / asking questions to Anton and Hendrik
