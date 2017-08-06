@@ -3,7 +3,6 @@
 * "Restrcturing your code base with Java 9", Rabea Gransberger, 1. talk Tuesday, [slides](https://speakerdeck.com/rgra/restrukturierung-der-code-basis-mit-java-9), [code](https://rgra.github.io)
 
 ## TL;DR
-TODO insert short description about what is going on here
 * new important topic in Java 9: Modularization (of JDK, JRE and for your applications)
 
 ## Advantages modules vs monolith
@@ -56,7 +55,6 @@ TODO insert short description about what is going on here
 
 ## Tasks
 * Have a look at Rabeas codebase and understand it. ;)
-* Steven: Rabea said "definition of module = area without cyclic dependencies". Does that mean that there can be circular dependencies between modules? I don't understand that definition. Ask her.
 * Steven: Release of Java 9 should be around July. Is it possible that our customer can install Java 9 and run the application with it? Shouldn't be possible because of WebStarter. Or could it? ... 
 * to make this a complete Java 9 modularization chapter, add: unnamend modules, named modules (explicit, open, automatic module), module-info.java (versioning, "requires transitive", "exports package to module", opens package), jlink, jdeps
 
